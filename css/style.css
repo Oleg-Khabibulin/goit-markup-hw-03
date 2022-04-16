@@ -61,7 +61,7 @@ img{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-}
+
 
 
 /* <<<<<<<<<<<<<<<СТУДІЯ>>>>>>>>>>>>>>>>>.. */
@@ -69,6 +69,7 @@ img{
 /* <<<<<<<<<<<<<<<ХЕДЕР>>>>>>>>>>>>>>>>>.. */
 
 .heder{
+    
     border-bottom: 1px solid #ECECEC;
 
     background-color:#FFFFFF;
@@ -121,8 +122,7 @@ img{
     color:var(--heder-accent-color);
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 0.02em;d
-    
+    letter-spacing: 0.02em;d   
 }
 
 .heder-nav .heder-link{
@@ -152,7 +152,9 @@ img{
 }
 
 .heder-contact .heder-link{
-    
+    padding-bottom: 32px;    
+    padding-top: 32px;
+
     color: var(--heder-secondary-color);
     font-weight: 500;
     line-height: 1.14px;
@@ -178,7 +180,6 @@ img{
     padding-bottom: 200px;
 }
 .hero-title{
-    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -219,7 +220,7 @@ img{
     display: flex;
 }
 .skills-list .items +.items{
-    margin-left: 30px;  
+    margin-left: var(--tipical-margin);  
 }
 .skills-title{
     margin-bottom: 10px;
@@ -229,8 +230,7 @@ img{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;  
-    
+    text-transform: uppercase;   
 }
 .skills-text{
     width: 270px;
@@ -250,7 +250,7 @@ img{
     display: flex;
 }
 .content-list .content-item + .content-item{
-  margin-left: 30px;
+  margin-left: var(--tipical-margin);
 }
 .content-title{
     font-weight: 700;
@@ -299,7 +299,7 @@ img{
     margin-bottom: 30px;
 }
 .team-img{
-    margin-bottom: 30px;
+    margin-bottom: var(--tipical-margin);
 }
 .team-list .team-item +.team-item{
     margin-left: 30px;
@@ -327,14 +327,15 @@ img{
     font-size: 26px;
     line-height: 1.19;
 }
+
 .footer-adress{
     display: block;
     color: var(--footer-first-color);
     font-style: normal;
     line-height: 1.71;
     margin-bottom: 9px;
-
 }
+
 .footer-adress:hover,
 .footer-adress:focus{
     color:var(--footer-accent-color) ;
@@ -377,10 +378,9 @@ img{
     flex-wrap: wrap;
 }
 .page-aside-item{
-    
     width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-right: var(--tipical-margin);
+    margin-bottom: var(--tipical-margin);
 }
 .page-aside-item:nth-child(3n){
     margin-right: 0;
@@ -433,7 +433,6 @@ img{
     background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.87;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
 
