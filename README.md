@@ -1,2 +1,2 @@
-# goit-margoit-markup-hw-03kup-hw-03
- 
+# goit-markup-hw-01
+Выполнение HTML-разметки макета страницы домашнего задания #1
