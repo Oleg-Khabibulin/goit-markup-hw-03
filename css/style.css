@@ -193,6 +193,7 @@ img{
 .hero-btn{
     margin-top: var(--tipical-margin);
     border-radius: 4px;
+    border: none;
     padding: 10px 32px;
     min-width: 200px;
 
@@ -240,6 +241,8 @@ img{
 /* <<<<<<<<<<<<<<< КОНТЕНТ>>>>>>>>>>>>>>>>>.. */
 
 .content{
+padding-top: 0;
+
     color: var(--main-first-color) ;
     font-weight: 700;
     font-size: 36px;
@@ -253,12 +256,18 @@ img{
   margin-left: var(--tipical-margin);
 }
 .content-title{
+    padding: 0; 
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     padding-bottom: 50px;
+}
+.content-img{
+    man-width: 100%;
+    height: auto;
 }
 /* <<<<<<<<<<<<<<< КОМАНДА>>>>>>>>>>>>>>>>>.. */
 
@@ -313,12 +322,14 @@ img{
 }
 .footer-logo{
     display: block;
+    margin-bottom: 20px;
+
     color: var(--footer-first-color);
     font-family: 'Raleway' sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    margin-bottom: 20px;
+    
 }
 .footer .web{
     color: var(--footer-accent-color)  ;  
@@ -330,10 +341,12 @@ img{
 
 .footer-adress{
     display: block;
+    margin-bottom: 9px;
+
     color: var(--footer-first-color);
     font-style: normal;
     line-height: 1.71;
-    margin-bottom: 9px;
+   
 }
 
 .footer-adress:hover,
@@ -342,11 +355,17 @@ img{
 }
 
 .footer-contact{
-    display: block;
     color:  var(--footer-secondary-color);
     font-style: normal;
     line-height: 1.71;
+    
+}
+.footer-item{
+    display: block;
     margin-bottom: 9px;
+}
+.footer-item:last-child{
+    margin-bottom: 0;
 }
 .footer-contact:hover,
 .footer-contact:focus{
@@ -389,11 +408,16 @@ img{
     margin-bottom: 0;
 }
 .page-content{
-    border: 1px solid #EEEEEE;
+    padding: 20px 24px;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    
 }
 
 .page-item{
     border-radius: 4px;
+    border: none;
     padding: 6px 22px;
 
 
@@ -414,8 +438,12 @@ img{
     color: var(--main-hero-color);
     background-color:#2196F3;
 }
+.page-img{
+    max-width: 100%;
+    height: auto;
+}
 .page-title{
-    margin-left: 24px;
+    margin-bottom: 4px;
 
     color: var(--main-first-color);
     background-color: #FFFFFF;
@@ -423,16 +451,12 @@ img{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-bottom: 4px;
-    margin-top: 20px;
+   
 }
 .page-text{
-    margin-left: 24px; 
-
     color: var(--main-text-color);
     background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.87;
-    margin-bottom: 20px;   
 }
 
